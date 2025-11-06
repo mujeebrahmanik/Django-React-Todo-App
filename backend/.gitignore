@@ -1,0 +1,51 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / virtualenv
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+
+# Media / uploaded files
+media/
+staticfiles/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Byte-compiled / compiled extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Unit test / pytest cache
+.pytest_cache/
+
+# Migrations (optional)
+# If you want to ignore migrations in repo:
+# */migrations/*.py
+# !*/migrations/__init__.py
