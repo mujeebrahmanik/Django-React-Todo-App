@@ -51,7 +51,7 @@ libsass==0.23.0
 msgpack==1.1.1
 packaging==25.0
 phonenumbers==8.13.44
-Pillow==10.0.0
+Pillow==11.1.0
 platformdirs==3.7.0
 psycopg2==2.9.9
 pyasn1==0.6.1
