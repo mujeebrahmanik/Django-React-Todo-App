@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    settings_module = 'todo.deployment_settings' if 'RENDER_EXTERNAL_HOSTNAME' else 'todo.settings'
+    settings_module = 'todo.deployment_settings' if 'RENDER_EXTERNAL_HOSTNAME' in os.environ else 'todo.settings'
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)
 
     try:
