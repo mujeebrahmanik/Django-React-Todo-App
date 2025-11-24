@@ -11,6 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo.settings')
+settings_module = 'todo.deployment_settings' if 'RENDER_EXTERNAL_HOSTNAME' else 'todo.settings'
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)
 
 application = get_wsgi_application()
