@@ -25,7 +25,7 @@ const Login = () => {
         setLoading(true)
 
         try {
-            const response=await axiosInstance.post('/token/',formData)
+            const response=await axios.post('https://django-react-todo-app-lb7d.onrender.com/token/',formData)
             setError("")
             setFormData({username:"",password:""})
             localStorage.setItem('accessToken',response.data.access)
