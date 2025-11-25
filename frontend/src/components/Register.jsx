@@ -35,7 +35,7 @@ const Register = () => {
             <div className='col-12 py-5'>
                         <h1 className='text-center mb-4 fw-bold'>Create new account</h1>
 
-                    <div className="col-4 offset-4">
+                    <div className="col-md-4 offset-md-4">
                         <form action="" method="post" onSubmit={handleSubmit}>
                                         <div className='my-3 inputbox'>
                                             <label htmlFor="" className='mb-2'>Username</label><br />

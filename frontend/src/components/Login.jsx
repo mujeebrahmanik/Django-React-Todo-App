@@ -51,7 +51,7 @@ const Login = () => {
                                 <h5 className="text-danger text-center my-4">{error}</h5>
                             </>
                         }
-                    <div className="col-4 offset-4">
+                    <div className="col-md-4 offset-md-4">
                         <form action="" method="post" onSubmit={handleSubmit}>
                                         <div className='my-3 inputbox'>
                                             <label htmlFor="">Username</label><br />
