@@ -21,6 +21,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://django-react-todo-app-lb7d.onrender.com/",  
+]
 
 
 
