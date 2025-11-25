@@ -22,7 +22,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://django-react-todo-app-lb7d.onrender.com/",  
+    "https://django-react-todo-app-lb7d.onrender.com",  
 ]
 
 
