@@ -15,6 +15,10 @@ const Category_modal = (props) => {
             const response= await axiosInstance.post('/category/',{title:category})
             setSuccess(true)
 
+            setTimeout(()=>{
+                setSuccess(false)
+            },2000)
+
             if(props.refresh){
                 props.refresh();
             }
